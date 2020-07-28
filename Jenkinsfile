@@ -3,7 +3,7 @@ pipeline {
     stages {
        stage('Build') {
             steps{
-                bat "mvn clean jacoco:prepare-agent package "   
+                bat "mvn clean jacoco:prepare-agent package -Dmaven.test.skip=true"   
             }
           }
 		 
