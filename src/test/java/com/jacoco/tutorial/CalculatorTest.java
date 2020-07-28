@@ -7,7 +7,7 @@ public class CalculatorTest {
  
 	private Calculator instance = new Calculator();
     
-	
+	/*
 	@Test
 	public void testAdd() {
 		int a = 10;
@@ -15,7 +15,7 @@ public class CalculatorTest {
 		int expected = 30;
 		Assert.assertEquals(expected, instance.add(a, b));
 	}
-	
+	**/
  
 	@Test
 	public void testSub() {
